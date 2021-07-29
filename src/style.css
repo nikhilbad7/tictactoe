@@ -1,0 +1,42 @@
+.icon{
+    color: red;
+    font-size: 30px;
+}
+body{
+    background: #00A300;
+    background: -webkit-linear-gradient(to right, #00A300, #5CFF5C);
+    background: linear-gradient(to right, #00A300, #5CFF5C);
+}
+.grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 15px;
+   padding: 50px;
+}
+.box{
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background-color: #4d1601;
+  color: white;
+  padding: 0.75rem 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-left: 170px;
+}
+
+.button:hover,
+.button:active {
+  background-color: #2c0d00;
+}
